@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\dllmain.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\mediaData.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\mediaReader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mediaWriter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\pixelFormat.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hymc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\hymcPlatform.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mediaData.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\pixelFormatConvert.hpp">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\preheader.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sampleFormat.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\mediaData_p.hpp">
+      <Filter>source</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
